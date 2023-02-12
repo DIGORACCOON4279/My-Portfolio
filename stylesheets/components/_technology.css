@@ -1,0 +1,95 @@
+.technology{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.technology .title{
+    width:70%;
+    padding: 0 0 100px 0;
+}
+.technology .tool-technology{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.technology .tool-technology .design{
+    position: relative;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.technology .tool-technology .design .background-back{
+    position: absolute;
+    top:0px;
+    clip-path: circle(0.3% at 100% 0);
+    opacity:0;
+    transition: all .5s ease;
+}
+.technology .tool-technology .design:hover .background-back{
+    clip-path: circle(141.2% at 100% 0);
+    opacity:1;
+    background-color: var(--orange);
+
+}
+.technology .tool-technology .frontend{
+    position: relative;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+.technology .tool-technology .frontend .background-back{
+    position: absolute;
+    top:0px;
+    clip-path: circle(5.0% at 2% 2%);
+    opacity:0;
+    transition: all .5s ease;
+}
+
+.technology .tool-technology .frontend:hover .background-back{
+    clip-path: circle(139.1% at 1% 2%);
+    opacity: 1;
+    background-color: var(--orange);
+}
+.technology .tool-technology .backend{
+    position: relative;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+.technology .tool-technology .backend .background-back{
+    position: absolute;
+    top:0px;
+    clip-path: circle(2.9% at 50% 50%);
+    opacity:0;
+    transition: all .5s ease;
+}
+.technology .tool-technology .backend:hover .background-back{
+    clip-path: circle(70.7% at 50% 50%);
+    opacity:1;
+    background-color: var(--orange);
+
+}
+.technology .tool-technology .tools{
+    position: relative;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+.technology .tool-technology .tools .background-back{
+    position: absolute;
+    top:0px;
+    clip-path: circle(4.4% at 0 100%);
+    opacity:0;
+    transition: all .8s ease;
+}
+.technology .tool-technology .tools:hover .background-back{
+    clip-path: circle(140.9% at 0 99%);
+    opacity:1;
+    background-color: var(--orange);
+
+}
