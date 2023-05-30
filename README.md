@@ -1,12 +1,11 @@
 
 <div align="center">
   
-!(https://github.com/DIGORACCOON4279/My-Portfolio/assets/88150970/c0d212d7-0aaa-4331-90d8-56ddbb93dfde)
-  
+ ![mi portafolio -reducido](https://github.com/DIGORACCOON4279/My-Portfolio/assets/88150970/aff40709-85c4-42d2-be73-31d6d1bc0c3c)
+
 </div>
 
 # My-Portfolio
-My Portfolio 
 
 It´s my professionnal Portfolio
 
