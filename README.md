@@ -8,6 +8,6 @@
 # My-Portfolio
 My Portfolio 
 
-It´s my professionnal Porfolio
+It´s my professionnal Portfolio
 
 
