@@ -1,0 +1,111 @@
+.footer{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0px 0px 0px;
+}
+.footer .title{
+    width: 70%;
+}
+.footer .container-footer{
+    display: flex;
+    flex-direction: row;
+}
+.footer .container-footer .number4{
+    z-index: -1;
+}
+.footer .container-footer .social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+}
+.footer .social-media .linkedin{
+    width: 70px;
+    transition: .5s;
+    margin: 0px 20px;
+    transform: scale(1, 1);
+}
+.footer .social-media .linkedin:hover{
+    opacity:.8;
+    transform: scale(1.2, .8);
+
+}
+.footer .social-media .github{
+    width: 70px;
+    transition: .5s;
+    margin: 0px 20px;
+}
+.footer .social-media .github:hover{
+    opacity:.8;
+    transform: scale(1.2, .8);
+}
+.footer .social-media .behance{
+    width: 70px;
+    transition: .5s;
+    margin: 0px 20px;
+}
+.footer .social-media .behance:hover{
+    opacity:.8;
+    transform: scale(1.2, .8);
+}
+.footer .social-media .resume {
+    width: 70px;
+    transition: .5s;
+    margin: 0px 20px;
+}
+.footer .social-media .resume:hover{
+    opacity:.8;
+    transform: scale(1.2, .8);
+}
+.footer .author{
+    width:20%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 10px 0px;
+    padding: 5px 0;
+    border-top: 1px solid var(--gray);
+}
+.footer .author .info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.footer .author .info .developer, .name{
+   font-size: 10px;
+   font-family: var(--body-font);
+   color: var(--gray);
+}
+.footer .author .info .heart{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    animation: heart 1s linear infinite .5s;
+    margin:  0 2px;
+}
+@keyframes heart {
+    0%{
+        transform: scale(1, 1);
+    }
+    35%{
+        transform: scale(1.2, 1.2);
+    }
+    70%{
+        transform: scale(1, 1);
+    }
+    100%{
+        transform: scale(1.2, 1.2);
+    }
+}
+.footer .author .spot{
+    font-size: 10px;
+    font-family: var(--body-font);
+    color: var(--gray);
+}

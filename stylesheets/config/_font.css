@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --body-font: 'Montserrat', sans-serif;
+    --header-font: 'Bebas Neue', cursive;
+}
