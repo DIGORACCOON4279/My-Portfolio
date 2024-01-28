@@ -1,0 +1,43 @@
+
+.about-me{
+    width:100vw;
+    max-width: 1300px;
+    height: auto;
+    display: flex;
+    margin:auto;
+    overflow: hidden;
+}
+.about-me .article-left{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.about-me .article-left .pic-dark{
+    width:170%;
+    align-self: center;
+}
+.about-me .article-left .text{
+    width: auto;
+    position: absolute;
+    bottom: 10px;
+    left:200px;
+    color: var(--gray);
+    font-family: var(--body-font);
+    font-size: 1.1rem;
+    z-index: 11;
+}
+.about-me .article-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.about-me .article-right .title{
+    width: 140%;
+}
+.about-me .article-right .number1{
+    padding-top: 20px;
+    position: absolute;
+    left: 100px;
+}
